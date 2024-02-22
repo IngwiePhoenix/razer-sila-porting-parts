@@ -1,0 +1,23 @@
+Model: Loopback device (loopback)
+Disk /dev/loop1: 3959MB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start   End     Size    File system  Name           Flags
+ 1      17.4kB  542kB   524kB                0:SBL1
+ 2      542kB   1066kB  524kB                0:BOOTCONFIG
+ 3      1066kB  1590kB  524kB                0:QSEE
+ 4      1590kB  2115kB  524kB                0:QSEE_1
+ 5      2115kB  2377kB  262kB                0:CDT
+ 6      2377kB  2639kB  262kB                0:CDT_1
+ 7      2639kB  3163kB  524kB                0:BOOTCONFIG1
+ 8      3163kB  3425kB  262kB                0:APPSBLENV
+ 9      3425kB  4474kB  1049kB               0:APPSBL
+10      4474kB  5522kB  1049kB               0:APPSBL_1
+11      5522kB  5785kB  262kB                0:ART
+12      5785kB  14.2MB  8389kB               0:HLOS
+13      14.2MB  22.6MB  8389kB               0:HLOS_1
+14      22.6MB  89.7MB  67.1MB               rootfs
+15      89.7MB  157MB   67.1MB               rootfs_1
+16      157MB   1499MB  1342MB  ext4         rootfs_data
